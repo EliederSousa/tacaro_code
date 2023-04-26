@@ -92,8 +92,8 @@ class _MyAppState extends State<ScreenScanner> {
                       borderRadius: BorderRadius.circular(15),
                     ),
                     minimumSize: Size(
-                      (MediaQuery.of(context).size.width * 0.8).roundToDouble(),
-                      0,
+                      (MediaQuery.of(context).size.width * 0.5).roundToDouble(),
+                      50,
                     ),
                   ),
                   child: Text(
